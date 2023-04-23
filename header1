@@ -1,0 +1,26 @@
+<!DOCTYPE html> <!-- Define el tipo de documento como HTML5 -->
+<html lang="en"> <!-- Define el idioma predeterminado de la página, que en este caso es inglés -->
+<head> <!-- Sección "head" que contiene información sobre la página -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres de la página -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Define la compatibilidad con diferentes navegadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define la escala inicial y el ancho del viewport -->
+    <title>Librería Odín</title> <!-- Define el título de la página que se mostrará en la pestaña del navegador -->
+    <link rel="stylesheet" href="./e.css"> <!-- Vincula la hoja de estilo "e.css" con la página -->
+</head>
+<body> <!-- Sección "body" que contiene todo el contenido visible de la página -->
+    
+  <header> <!-- Define la sección de cabecera de la página -->
+    <a href="#"  class="logo"> <!-- Define un enlace con clase "logo" que lleva a la página principal "#" -->
+      <img src="./Logo.png" alt=""> <!-- Inserta una imagen con el atributo "src" que indica la ruta de la imagen y el atributo "alt" que muestra un texto alternativo -->
+      <h2 class="nombre-empresa">Librería Odín</h2> <!-- Inserta un título de nivel 2 con clase "nombre-empresa" -->
+    </a>
+
+    <nav> <!-- Define una barra de navegación con enlaces -->
+      <a href="" class="nav-link">Inicio</a> <!-- Define un enlace con clase "nav-link" que lleva a la página principal "" -->
+      <a href="" class="nav-link">Sobre Nosotros</a> <!-- Define un enlace con clase "nav-link" que lleva a la página "Sobre Nosotros" "" -->
+      <a href="" class="nav-link">Contacto</a> <!-- Define un enlace con clase "nav-link" que lleva a la página "Contacto" "" -->
+    </nav>
+  </header>
+      
+</body>
+</html>
