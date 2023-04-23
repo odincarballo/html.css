@@ -1,0 +1,56 @@
+/* Se establece la fuente predeterminada y el margen de la página en 0 */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/* Se elimina la subrayado de los enlaces y se establece el color de texto en negro */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Se establecen propiedades de estilo para el encabezado de la página */
+header {
+  display: flex; /* Los elementos hijos se comportan como elementos flexibles */
+  min-height: 70px; /* Altura mínima del encabezado */
+  background-color: aliceblue; /* Establece el color de fondo del encabezado */
+  justify-content: space-between; /* Alinea los elementos hijso a lo largo del eje principal de forma que haya un espacio igual entre ellos */
+  align-items: center; /* Alinea los elementos hijos al centro del eje transversal */
+  padding: 20px; /* Establece un relleno alrededor del contenido del encabezado */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra al encabezado */
+}
+
+/* Se establece un estilo para el logotipo de la página */
+.logo {
+  display: flex; /* Los elementos hijos se comportan como elementos flexibles */
+  align-items: center; /* Alinea los elementos hijos al centro del eje transversal */
+}
+
+/* Se establece un estilo para la imagen del logotipo */
+.logo img {
+  height: 100px; /* Altura de la imagen */
+  margin-right: 10px; /* Margen derecho de la imagen */
+}
+
+/* Se establecen propiedades de estilo para los enlaces de navegación */
+nav a {
+  font-weight: 600; /* Establece el peso de la fuente a 600 */
+  padding-right: 10px; /* Establece un relleno en el borde derecho del elemento */
+}
+
+/* Se establecen propiedades de estilo para los enlaces de navegación al pasar el cursor sobre ellos */
+nav a:hover {
+  color: #FFD93E; /* Cambia el color del texto al amarillo al pasar el cursor sobre los enlaces */
+}
+
+/* Se aplica una regla de medios de consulta para pantallas de hasta 700 píxeles */
+@media (max-width: 700px) {
+  header {
+    flex-direction: column; /* Cambia la dirección del eje principal a vertical */
+  }
+
+  nav {
+    padding: 10px 0px; /* Establece un relleno en la parte superior e inferior del elemento */
+  }
+}
